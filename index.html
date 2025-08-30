@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rashmi Adulkar — Mindful Minds: A book on mental health</title>
+  <meta name="description" content="Rashmi Adulkar — author of 'Mindful Minds'. Practical mental health guidance, personal stories, and resources to nurture emotional wellbeing." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Rashmi Adulkar — Mindful Minds" />
+  <meta property="og:description" content="Practical mental health guidance and personal stories from Rashmi Adulkar. Order 'Mindful Minds' today." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://your-site.com/images/book-cover.jpg" />
+  <meta property="og:url" content="https://your-site.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --muted:#94a3b8;
+      --accent:#8b5cf6; /* purple */
+      --accent-2:#06b6d4; /* teal */
+      --glass: rgba(255,255,255,0.04);
+      --radius:14px;
+      color-scheme: dark;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;
+      background: linear-gradient(180deg,#071029 0%,#07122a 60%, #031025 100%);
+      color:#e6eef8;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.5;
+    }
+    .container{max-width:1000px;margin:0 auto;padding:28px;}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{
+      width:52px;height:52px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:white;
+      box-shadow:0 6px 30px rgba(99,102,241,0.14);
+    }
+    nav a{color:var(--muted);text-decoration:none;margin-left:14px;font-weight:600}
+    nav a:hover{color:#fff}
+    .hero{
+      display:grid;grid-template-columns:1fr 360px;gap:28px;align-items:center;margin-top:36px;
+    }
+    .hero-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:16px;padding:28px;box-shadow:0 6px 30px rgba(2,6,23,0.6);}
+    h1{font-size:28px;margin:0 0 8px 0}
+    p.lead{color:var(--muted);margin:0 0 16px}
+    .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+    .btn{
+      background:linear-gradient(90deg,var(--accent),var(--accent-2));
+      border:none;color:white;padding:12px 18px;border-radius:10px;font-weight:700;cursor:pointer;
+      box-shadow:0 8px 30px rgba(139,92,246,0.18);
+    }
+    .btn.secondary{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+    .book-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:18px;display:flex;flex-direction:column;align-items:center;gap:12px}
+    .book-cover{width:220px;height:300px;background:#111;border-radius:8px;background-size:cover;background-position:center;box-shadow:0 10px 40px rgba(2,6,23,0.6)}
+    section{margin-top:36px}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .quote{font-style:italic;color:var(--muted);border-left:3px solid rgba(255,255,255,0.04);padding-left:12px}
+    .testimonial{background:var(--glass);padding:14px;border-radius:12px}
+    footer{margin:48px 0 24px;color:var(--muted);font-size:14px;text-align:center}
+    /* responsive */
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr; }
+      nav{display:none}
+      .container{padding:18px}
+      .book-cover{width:180px;height:250px}
+      .grid-2{grid-template-columns:1fr}
+    }
+    input,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit}
+    label{display:block;margin-bottom:6px;color:var(--muted);font-size:14px}
+    .flex{display:flex;gap:12px;align-items:center}
+    .small{font-size:13px;color:var(--muted)}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.03);font-weight:600;color:var(--muted);font-size:13px}
+  </style>
+
+  <!-- Structured Data (Book + Person) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Rashmi Adulkar",
+    "url":"https://your-site.com",
+    "sameAs": [],
+    "knowsAbout":["mental health","wellbeing","mindfulness","self-help"]
+  }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">RA</div>
+        <div>
+          <div style="font-weight:700">Rashmi Adulkar</div>
+          <div class="small">Author • Mental health advocate</div>
+        </div>
+      </div>
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#book">Book</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-card">
+          <h1 id="hero-title">Mindful Minds: Practical guidance for mental wellbeing</h1>
+          <p class="lead">Hi — I’m <strong>Rashmi Adulkar</strong>. I wrote <em>Mindful Minds</em> to share experience, research-backed strategies, and gentle practices for emotional resilience and everyday calm.</p>
+
+          <div class="cta-row">
+            <a class="btn" href="#book">Buy the book</a>
+            <a class="btn secondary" href="#resources">Free resources</a>
+          </div>
+
+          <div style="margin-top:18px" class="small">
+            <span class="pill">Chapters: 12</span>
+            <span style="margin-left:8px" class="pill">Pages: 208</span>
+          </div>
+        </div>
+
+        <aside class="book-card" aria-labelledby="book-title">
+          <div id="book-title" style="font-weight:700">Mindful Minds</div>
+          <div class="book-cover" id="cover" role="img" aria-label="Book cover: Mindful Minds by Rashmi Adulkar" style="background-image:url('images/book-cover.jpg')"></div>
+          <div style="text-align:center">
+            <div style="font-weight:700">₹499</div>
+            <div style="font-size:13px;color:var(--muted);margin-top:6px">Available in paperback & ebook</div>
+          </div>
+          <div style="width:100%;margin-top:12px;display:flex;gap:8px">
+            <a class="btn" href="https://your-purchase-link.example" style="flex:1">Buy now</a>
+            <a class="btn secondary" href="files/excerpt.pdf" download style="flex:1">Free excerpt</a>
+          </div>
+        </aside>
+      </section>
+
+      <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About Rashmi</h2>
+        <div class="grid-2">
+          <div>
+            <p><strong>Rashmi Adulkar</strong> is a mental health writer and advocate who blends personal storytelling with practical strategies informed by research. Her aim is to make mental wellbeing approachable for everyone — regardless of background or experience.</p>
+            <p class="quote">"A compassionate, clear guide — full of practical steps that actually fit into real life." — Reader review</p>
+          </div>
+          <div>
+            <h3>Speaking & workshops</h3>
+            <p>I offer interactive workshops on emotional regulation, mindful routines, and building resilience for schools, workplaces, and community organisations.</p>
+            <ul class="small" style="padding-left:18px">
+              <li>Keynotes: mental wellbeing in daily life</li>
+              <li>Workshops: 90–120 minutes, practical takeaways</li>
+              <li>Online sessions: up to 60 participants</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="book" aria-labelledby="book-title-2">
+        <h2 id="book-title-2">About the book</h2>
+        <div class="grid-2">
+          <div>
+            <p><strong>Mindful Minds</strong> is a practical, compassionate guide that helps readers recognise common mental health patterns, develop daily practices to support mood, and connect with resources when more help is needed.</p>
+            <h4>Key themes</h4>
+            <ul class="small" style="padding-left:18px">
+              <li>Understanding emotions without judgement</li>
+              <li>Small habits that compound into wellbeing</li>
+              <li>Tools for anxiety, low mood, and stress</li>
+              <li>How to ask for help and build supportive routines</li>
+            </ul>
+            <p style="margin-top:12px"><strong>Blurb (short):</strong> Practical compassion meets evidence-based tools — a gentle handbook for anyone who wants clearer, calmer days.</p>
+          </div>
+          <div>
+            <div class="testimonial">
+              <strong>What readers say</strong>
+              <p class="small">"Rashmi’s voice is warm, grounded and helpful. I started using the micro-practices and noticed better sleep within two weeks." — Asha</p>
+            </div>
+
+            <div style="margin-top:12px" class="small">
+              <strong>Formats:</strong> Paperback • eBook • Audiobook (coming soon)<br/>
+              <strong>ISBN:</strong> 978-1-23456-789-0
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resources" aria-labelledby="resources-title">
+        <h2 id="resources-title">Free resources</h2>
+        <div class="grid-2">
+          <div>
+            <h4>Downloadable tools</h4>
+            <ul class="small" style="padding-left:18px">
+              <li><a href="files/mood-tracker.pdf" style="color:var(--accent)">Mood tracker (printable)</a></li>
+              <li><a href="files/breathing-exercise.mp3" style="color:var(--accent)">Guided breathing (audio)</a></li>
+              <li><a href="files/worksheet.pdf" style="color:var(--accent)">Coping plan worksheet</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Recommended reading & links</h4>
+            <p class="small">Curated articles, helplines, and further reading.</p>
+            <ul class="small" style="padding-left:18px">
+              <li><a href="#" style="color:var(--accent)">Finding local mental health support</a></li>
+              <li><a href="#" style="color:var(--accent)">Quick grounding exercises</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" aria-labelledby="testimonials-title">
+        <h2 id="testimonials-title">Praise</h2>
+        <div class="grid-2">
+          <div class="testimonial">
+            <strong>Dr. Neeta Shah, Clinical Psychologist</strong>
+            <p class="small">"A straightforward, empathetic resource that complements clinical work and self-help alike."</p>
+          </div>
+          <div class="testimonial">
+            <strong>Reader</strong>
+            <p class="small">"I gifted this book to a friend — it opened up conversations we couldn't before."</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact & newsletter</h2>
+        <div class="grid-2">
+          <div>
+            <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST">
+              <label for="name">Name</label>
+              <input id="name" name="name" required />
+
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" required />
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+
+              <div style="margin-top:10px;display:flex;gap:10px">
+                <button class="btn" type="submit">Send message</button>
+                <button class="btn secondary" type="button" id="subscribeBtn">Join newsletter</button>
+              </div>
+              <div id="formNote" class="small" style="margin-top:8px;color:var(--muted)">I respond to messages personally; workshops and media inquiries welcomed.</div>
+            </form>
+          </div>
+
+          <div>
+            <h4>Newsletter</h4>
+            <p class="small">Monthly notes: short practices, a chapter excerpt, upcoming events. No spam — unsubscribe anytime.</p>
+            <form id="newsletter" action="https://formspree.io/f/your-newsletter-id" method="POST">
+              <label for="news-email">Email</label>
+              <input id="news-email" type="email" name="email" required placeholder="you@example.com" />
+              <div style="margin-top:8px">
+                <button class="btn" type="submit">Subscribe</button>
+              </div>
+            </form>
+            <div style="margin-top:12px" class="small">For press & event requests: <a href="mailto:rashmi@example.com" style="color:var(--accent)">rashmi@example.com</a></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Rashmi Adulkar — All rights reserved · <a href="#privacy" style="color:var(--muted)">Privacy</a>
+    </footer>
+  </div>
+
+  <script>
+    // Set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Subscribe button copies email to newsletter form (simple UX)
+    document.getElementById('subscribeBtn').addEventListener('click', function(){
+      const email = prompt('Enter your email to join the newsletter');
+      if(email){
+        // auto-fill and submit newsletter form via fetch to Formspree (example)
+        const data = new FormData();
+        data.append('email', email);
+        fetch('https://formspree.io/f/your-newsletter-id', {
+          method:'POST',
+          body: data,
+          headers: { 'Accept': 'application/json' }
+        }).then(res=>{
+          if(res.ok) alert('Thanks! Check your inbox for confirmation.');
+          else alert('There was a problem subscribing — please try again.');
+        }).catch(()=>alert('Could not connect — please try again later.'));
+      }
+    });
+
+    // Accessibility: ensure links with target=_blank handled (if any)
+    document.querySelectorAll('a[target="_blank"]').forEach(a => {
+      a.setAttribute('rel', 'noopener noreferrer');
+    });
+  </script>
+</body>
+</html>
